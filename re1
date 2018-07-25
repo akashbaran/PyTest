@@ -1,0 +1,6 @@
+import re
+prog=re.compile(r'm\w\w')
+str='mat mop cat map'
+result=prog.findall(str)
+for item in result:
+    print(item)

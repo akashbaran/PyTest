@@ -1,0 +1,7 @@
+file = open("filename.txt","w+")
+line = raw_input("enter the line ")
+file.write(line)
+file.seek(0,0)
+str = file.read()
+print(str)
+file.close()
